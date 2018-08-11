@@ -65,3 +65,14 @@ p {
   background: #ebebeb;
 }
 
+
+/*media query here*/
+ @media screen and (max-width: 768px) {
+    body {
+        /* height: 400px; */
+        background-color: red;
+    }
+    header {
+        width: 75%;
+    }
+}
